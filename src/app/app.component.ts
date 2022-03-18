@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Sharing-Data-in-Angular';
+  userName: string = 'EDWIN KARIMI'
+  message: string = 'I am the best developer your company will ever see'
+
 }
