@@ -1,5 +1,7 @@
-<div class="card" style="width: 18rem;">
+<div class="card container" style="width: 18rem;">
     <div class="card-title">CARD</div>
     <div class="card-title">{{ name }}</div>
     <div class="card-text">{{ message }}</div>
+    <input type="text" class="form-control my-2" #usermessage>
+    <button class="btn btn-primary" (click)="sendItems(usermessage.value)">Send data</button>
 </div>

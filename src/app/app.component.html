@@ -1,2 +1,9 @@
 <router-outlet></router-outlet>
 <app-card [name]="userName" [message]="message"></app-card>
+<br>
+<br>
+<br>
+<br>
+<h1 class="text-center my-2">{{ receivedMessage }}</h1>
+
+<app-card (userInput)="printMessage($event)"></app-card>
